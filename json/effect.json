@@ -1,0 +1,14 @@
+[
+	{
+		"Effet_Nom": "Buff_Dps",
+		"On": []
+	},
+	{
+		"Effet_Nom": "Provocation",
+		"On": []
+	},
+	{
+		"Effet_Nom": "Hush",
+		"On": []
+	}
+]

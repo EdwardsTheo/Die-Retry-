@@ -1,0 +1,180 @@
+[
+	[
+		{
+			"Nom": "Loup-Garou",
+			"RealName": "Loup Garou",
+			"PV": 50,
+			"PA": 3,
+			"AoD": "alive",
+			"Image": "loup_garou.png",
+			"Ability": [
+				{
+					"type": "Basic",
+					"name": "Dps",
+					"nb_target": 1,
+					"pa": 1,
+					"cd": 0,
+					"end_cd": "",
+					"stat": [
+						2,
+						3,
+						6
+					],
+					"description": "Attaque un ennemi unique"
+				},
+				{
+					"type": "Special_0",
+					"name": "Heal",
+					"nb_target": 1,
+					"pa": 2,
+					"cd": 2,
+					"end_cd": "",
+					"stat": [
+						5,
+						6,
+						8
+					],
+					"description": "Soigne un personnage"
+				},
+				{
+					"type": "Special_1",
+					"name": "",
+					"nb_target": "",
+					"pa": "",
+					"cd": "",
+					"end_cd": "",
+					"stat": [],
+					"description": ""
+				},
+				{
+					"type": "Ultime",
+					"name": "",
+					"nb_target": "",
+					"pa": "",
+					"cd": "",
+					"end_cd": "",
+					"stat": [],
+					"description": ""
+				}
+			]
+		}
+	],
+	[
+		{
+			"Nom": "Spectre",
+			"RealName": "Spectre",
+			"PV": 50,
+			"PA": 3,
+			"AoD": "alive",
+			"Image": "ghost.png",
+			"Ability": [
+				{
+					"type": "Basic",
+					"name": "Dps",
+					"nb_target": 1,
+					"pa": 1,
+					"cd": 0,
+					"end_cd": "",
+					"stat": [
+						2,
+						3,
+						6
+					],
+					"description": "Attaque un ennemi unique"
+				},
+				{
+					"type": "Special_0",
+					"name": "Provocation",
+					"nb_target": 1,
+					"pa": 2,
+					"cd": 4,
+					"end_cd": "",
+					"stat": [
+						0
+					],
+					"description": "Prend les degats d'un ennemi choisi"
+				},
+				{
+					"type": "Special_1",
+					"name": "",
+					"nb_target": "",
+					"pa": "",
+					"cd": "",
+					"end_cd": "",
+					"stat": [],
+					"description": ""
+				},
+				{
+					"type": "Ultime",
+					"name": "",
+					"nb_target": "",
+					"pa": "",
+					"cd": "",
+					"end_cd": "",
+					"stat": [],
+					"description": ""
+				}
+			]
+		}
+	],
+	[
+		{
+			"Nom": "Boufton",
+			"RealName": "Boufton",
+			"PV": 50,
+			"PA": 3,
+			"AoD": "alive",
+			"Image": "boufton.png",
+			"Ability": [
+				{
+					"type": "Basic",
+					"name": "Dps",
+					"nb_target": 1,
+					"pa": 1,
+					"cd": 0,
+					"end_cd": "",
+					"stat": [
+						2,
+						3,
+						6
+					],
+					"description": "Attaque un ennemi unique"
+				},
+				{
+					"type": "Special_0",
+					"name": "Provocation",
+					"nb_target": 1,
+					"pa": 2,
+					"cd": 2,
+					"end_cd": "",
+					"stat": [
+						3,
+						4,
+						7
+					],
+					"description": "Prend les degats d'un ennemi choisi"
+				},
+				{
+					"type": "Special_1",
+					"name": "",
+					"nb_target": "",
+					"pa": "",
+					"cd": "",
+					"end_cd": "",
+					"stat": [],
+					"description": ""
+				},
+				{
+					"type": "Ultime",
+					"name": "",
+					"nb_target": "",
+					"pa": "",
+					"cd": "",
+					"end_cd": "",
+					"stat": [],
+					"description": ""
+				}
+			]
+		}
+	]
+]

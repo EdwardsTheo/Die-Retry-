@@ -1,0 +1,60 @@
+[
+	{
+		"Nom": "Potion_soin",
+		"image": "potion.jpeg",
+		"Ability": [
+			{
+				"type": "Basic",
+				"name": "Heal",
+				"nb_target": 1,
+				"pa": 2,
+				"cd": 0,
+				"end_cd": "",
+				"stat": [
+					5,
+					6,
+					9
+				],
+				"description": "Soigne un allié unique"
+			}
+		]
+	},
+	{
+		"Nom": "Potion_degats",
+		"image": "degat.jpg",
+		"Ability": [
+			{
+				"type": "Basic",
+				"name": "Dps",
+				"nb_target": 1,
+				"pa": 2,
+				"cd": 0,
+				"end_cd": "",
+				"stat": [
+					6,
+					7,
+					10
+				],
+				"description": "Attaque un ennemi unique"
+			}
+		]
+	},
+	{
+		"Nom": "Plume de phenix",
+		"image": "plume.jpg",
+		"Ability": [
+			{
+				"type": "Basic",
+				"name": "Rez",
+				"nb_target": 1,
+				"pa": 3,
+				"cd": 0,
+				"end_cd": "",
+				"stat": [
+					0
+				],
+				"description": "Réssuscite un allié mort"
+			}
+		]
+	}
+]

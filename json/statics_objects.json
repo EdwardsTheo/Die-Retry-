@@ -1,0 +1,69 @@
+[
+	{
+		"Nom": "Senzu",
+		"image": "senzu.png",
+		"Effect": [
+			{
+				"type": "Max_Heal",
+				"stat": ""
+			}
+		],
+		"Description": "Redonne tout ses points de vie à un allié aleatoire"
+	},
+	
+	{
+		"Nom": "Botte de Nain",
+		"image": "Boots.jpg",
+		"Effect": [
+			{
+				"type": "Buff_PA",
+				"stat": 1
+			}
+		],
+		"Description": "Augmente les PA d'un allié au hasard"
+	},
+	{
+		"Nom": "Deuillegivre",
+		"image": "Deuillegivre.jpg",
+		"Effect": [
+			{
+				"type": "Buff_Dps",
+				"stat": 5
+			}
+		],
+		"Description": "Augmente les statistiques d'une attaque DPS"
+	},
+	{
+		"Nom": "Glaive de Kratos",
+		"image": "Kratos.png",
+		"Effect": [
+			{
+				"type": "Buff_Dps",
+				"stat": 4
+			}
+		],
+		"Description": "Augmente les statistiques d'une attaque DPS"
+	},
+	{
+		"Nom": "Benediction de Melitele",
+		"image": "Melitele.png",
+		"Effect": [
+			{
+				"type": "Max_Heal",
+				"stat": ""
+			}
+		],
+		"Description": "Rends tous les pv à tous les heros"
+	},
+	{
+		"Nom": "Sagesse de Thrall",
+		"image": "Thrall.jpg",
+		"Effect": [
+			{
+				"type": "Low_PA",
+				"stat": 1
+			}
+		],
+		"Description": "Baisse le coup en PA d'une compètences au hasard"
+	}
+]
