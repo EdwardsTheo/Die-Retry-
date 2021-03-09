@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sélection Personnages - Die&Retry</title>
+		<link rel="stylesheet" href="selper_dieretry.css">
+	</head>
+	<body background="inn.png">
+		<form action="/req_afficher_Tour" method="get">
+			<h1>Choisis ton équipe !</h1>
+			<span class="marqueurs">
+				<center>{erreur}</center>
+			</span>
+			<br/>		
+			<div class="flex row ligne-persos">
+				<label class="flex col select-perso">
+					<span class="nom-perso">Clerc</span>
+					<div class="perso-description">
+						<img src="healer.png" />
+						<p>Compétence:<br/><br/> -Attaque : 10 de dégât <br/><br/> -Heal: soigne de 20 PV tout les alliés</p>
+						
+					</div>
+					<input type="checkbox" name="character" value="Clerc" />
+				</label>
+				<label class="flex col select-perso">
+					<span class="nom-perso">Impetigo</span>
+					<div class="perso-description">
+					<img src="paladin.png" />
+						<p>Compétence:<br/><br/> - Attaque 1 : 20pdd<br/><br/> - Attaque 2 : 10 pdd</p>
+					</div>
+					<input type="checkbox" name="character" value="Impetigo" />
+				</label>
+					<label class="flex col select-perso">
+					<span class="nom-perso">Balanite</span>
+					<div class="perso-description">
+					<img src="Balanite.png" />
+						<p>Compétence: <br/><br/> -Attaque 1: 30pdd <br/><br/> -Attaque 2: 10pdd</p>
+					</div>
+					<input type="checkbox" name="character" value="Balanite" />
+				</label>
+					<label class="flex col select-perso">
+					<span class="nom-perso">Escarre</span>
+					<div class="perso-description">
+					<img src="witch.png" />
+						<p>Compétence: <br/><br/> -Attaque 1: 20pdd<br/><br/> -Attaque 2: 10pdd</p>
+					</div>
+					<input type="checkbox" name="character" value="Escarre" />
+				</label>
+					<label class="flex col select-perso">
+					<span class="nom-perso">Versinios</span>
+					<div class="perso-description">
+					<img src="viking.png" />
+						<p>Compétence: <br/><br/> -Attaque 1 : 50pdd <br/><br/> -Attaque 2 : 30pdd</p>
+					</div>
+					<input type="checkbox" name="character" value="Versinios" />
+				</label>
+			</div>
+
+			<br/>	
+			<br/>	
+			<br/>	
+			<br/>	
+			 <input type="hidden" name="pseudo" value="{pseudo}">
+			 <a href="modele_affichage_tour.html">
+            <center><input type="submit" name="bouton" value="validation" style="height:100px;width:200px"></center>
+			</a>
+		</form>
+	</body>
+</html>
+

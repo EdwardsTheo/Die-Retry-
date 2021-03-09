@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+	<head>	
+		<meta charset="UTF-8"/>
+		<title>Niveau</title>
+		<link rel="stylesheet" type="text/css" href="styles_Niveau.css">
+	</head>
+	<body>
+		<div class="all">
+			<div class="up">
+				<div class="Joueur">
+					<center>
+						Equipe du joueur
+						<br>
+						<br/>
+						{Hero0_Nom} {Hero0_PV}
+						<br/>
+						{Hero1_Nom} {Hero1_PV}
+						<br/>
+						{Hero2_Nom} {Hero2_PV}
+						<br/>
+						<br/>
+						Il vous reste {PA} PA.
+						<br/>
+						<br/>
+						<div class="describe_comp">
+							{Attack0_Nom} ({Attack0_PA} PA)<br/>
+							cooldown restant: {end_cd0}<br/>
+							{Attack0_Describe}<br/>
+							<br/>
+							{Attack1_Nom} ({Attack1_PA} PA)<br/>
+							cooldown restant: {end_cd1}<br/>
+							{Attack1_Describe}<br/>
+							<br/>
+							{Attack2_Nom} ({Attack2_PA} PA)<br/>
+							cooldown restant: {end_cd2}<br/>
+							{Attack2_Describe}<br/>
+							<br/>
+							{Attack3_Nom} ({Attack3_PA} PA)<br/>
+							cooldown restant: {end_cd3}<br/>
+							{Attack3_Describe}<br/>
+							<br/>
+						</div>
+						<div class="describe_obj">
+							{obj0_nb} <br/>
+							<br/>
+							{obj1_nb} <br/>
+							<br/>
+							{obj2_nb} <br/>
+							<br/>
+						</div>
+					</center>
+				</div>
+				<div class="middle">
+					<form action="/req_Ennemis" method="GET">	
+						<div class="Column">	
+							{map}
+							<div class="Map">
+								<center><h1> Tour de {tour} <h1></center>
+								<center>
+									<br/>
+									<br/><F5>
+								</center>
+								<span>
+								<center>
+									{erreur}
+								</center>
+								</span>
+							</div>
+							<div class="plateau">
+								<div class="RealPlateau">
+									<div class="grp_Heros">
+										<div class="Heros_0">
+											{perso_1}	
+											<input type="checkbox" name="target" value="{Hero0_Nom}" id="H0">			
+											{fin_div}
+										</div>
+										<div class="Heros_1">
+											{perso_2}
+											<input type="checkbox" name="target" value="{Hero1_Nom}" id="H1">
+											{fin_div2}
+										</div>
+										<div class="Heros_2">
+											{perso_3}
+											<input type="checkbox" name="target" value="{Hero2_Nom}" id="H2">
+											{fin_div3}
+										</div>
+									</div>
+									<div class="grp_Monstres">
+										<div class="Monstre_0">
+											{monstres_1}
+											<input type="checkbox" name="target" value="{Monstre0_Nom}" id="M0">
+											{fin_div_m}
+										</div>
+										<div class="Monstre_1">
+											{monstres_2}
+											<input type="checkbox" name="target" value="{Monstre1_Nom}" id="M1">
+											{fin_div_m2}
+										</div>
+										<div class="Monstre_2">
+											{monstres_3}
+											<input type="checkbox" name="target" value="{Monstre2_Nom}" id="M2">
+											{fin_div_m3}
+										</div>
+									</div>
+								</div>
+							</div>
+							{fin_map}
+						</div>
+						<div class="Competences">
+							<div class="RealCompetences">
+									Compétences :   
+									<br/>
+									<br/>
+									<div class="Basic">
+										<center>{Basic}</center>
+										<div class ="carre0">
+											{Basic_Image}
+											<input type="checkbox" name="Ability" value="Basic" id="B">
+										{div1}
+										</div>
+									</div>
+									<div class="Special_0">
+											<center>{Special0}</center>
+										<div class="carre1">
+											{Special0_Image}
+											<input type="checkbox" name="Ability" value="Special_0" id="S_0">
+											{div2}
+										</div>
+									</div>	
+									<div class="Special_1">
+											<center>{Special1}</center>
+										<div class ="carre2">
+											{Special1_Image}
+											<input type="checkbox" name="Ability" value="Special_1" id="S_1">
+										{div3}
+										</div>
+									</div>
+									<div class="Ultime">
+										<center>{Ultim}</center>
+										<div class ="carre3">
+											{Ultim_Image}
+											<input type="checkbox" name="Ability" value="Ultime" id="Ultime">
+											{div4}
+										</div>
+									</div>
+							</div>
+							<div class="Objets">
+								Objets :  
+								<div class="obj0_nom">
+									{Objet0_Nom}
+									{Objet0_Image}
+									<div class="obj0">
+										{Objet0}
+									</div>
+									{end0}
+								</div>
+								<div class="obj1_nom">
+									{Objet1_Nom}
+									{Objet1_Image}
+									<div class="obj1">
+										{Objet1}
+									</div>
+									{end1}
+								</div>
+								<div class="obj2_nom">
+									{Objet2_Nom}
+									{Objet2_Image}
+									<div class="obj2">
+										{Objet2}
+									</div>
+									{end2}
+								</div>
+							</div>
+							<div class="button">
+								<div class="Resolution">
+									<input type="hidden" name="Tour" value="{tour}">
+									<input type="submit" name="bouton" value="Résolution" id="Resolve">	
+								</div>
+								<div class="FinDeTour">
+									<input type="hidden" name="Tour" value="{tour}">
+									<input type="hidden" name="pseudo" value="{pseudo}">
+									<input type="submit" name="bouton" value="Fin de tour" id="End">
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				
+				<div class="Ennemis">
+					<center>
+						PV des Ennemis
+						 <br/>
+						 <br/>
+						 {Monstre0_Nom} {Monstre0_PV}
+						 <br/>
+						 {Monstre1_Nom} {Monstre1_PV}
+						 <br/>
+						 {Monstre2_Nom} {Monstre2_PV}		
+					 </center>
+				</div>
+			</div>
+			<div class="Down">
+				<div class="Historique">
+					<center>
+						Actions réalisées : 
+						{historique}
+					</center>
+				</div>
+			</div>
+		
+			<input type="hidden" name="pseudo" value="{pseudo}">
+		
+		</div>
+		<div class="bouton">
+			<form action="/req_MenuEchec" method="GET">
+				<input id="defaite" type="submit" name="bouton" value="Défaite">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+			</form>
+			<form action="/req_VictoireRecompense" method="GET">
+				<input id="victoire" type= "submit" name="bouton" value="recompense">				
+				<input type="hidden" name="pseudo" value="{pseudo}">
+			</form>
+			<form action = "/req_VictoireFinale" method"GET">
+				<input id="victoire" type="submit" name="bouton" value="Victoire Finale">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+			</form>
+		</div>
+	</body>
+</html>

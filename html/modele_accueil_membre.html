@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles_acceuil_membre.css">
+	</head>
+	<body>
+		<center>
+		<h2>Bienvenue !</h2>
+
+		<p>
+			Bonjour <em>{pseudo}</em>
+		</p>
+		</center>
+		<div class="parent">
+		<div class="parent2">
+		<div class="parent3">
+		<span>
+		<label>Mode de jeu :</label>
+		<select name="mode" style="width:5%">
+			<option value="0"	>solo</option>
+		</select>
+		<br/>
+		<br/>
+		</div>
+		<form action="/req_afficher_choixEquipe" method="GET">
+			<input type="hidden" name="pseudo" value="{pseudo}"> 
+			<div class="bouton">
+			<input type="submit" name ="Confirmer" value="Confirmer" style="width:10%" style="heigth:auto" >
+			</div>
+		</form>
+		</div>
+		</span>
+		<table border="1">
+		<tr>
+			<td> <b>Dans un lointain passé, le seigneur des ténèbres Dextropropoxyphène envahit le monde en quête de pouvoir. Mais, sur sa route, 3 héros de guerre se dressent et vont l’affronter directement en haut de sa tour. Vont-ils réussir à déjouer les plans du seigneur des ténèbres ?</b></td>
+			</tr>
+		</table>
+		</div>
+	</body>
+</html>

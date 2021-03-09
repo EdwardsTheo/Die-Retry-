@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Menu d'Echec</title>
+		<link rel="stylesheet" href="styles_MenuEchec.css"> 
+	</head>
+	<body background="graveyard.jpg">
+		<header> 
+			<h1>YOU DIED</h1>
+		</header>
+
+		<div class ="ragequit">
+			<form action='/req_MenuAdieu' method="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+				<center><input type="submit" name="bouton" value="Rage Quit"></center>
+			</form>
+		</div>
+		
+		
+		<div class="changer_equipe">
+			<form action="/req_afficher_choixEquipe" method="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+			<center><input id="equipe" type="submit" name="bouton" value="Changer Equipe"/></center>
+        	</form>
+		</div>
+
+		<div class ="rejouer">
+			<form action="/req_afficher_Tour" method="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+				<center><input type="submit" name="bouton" value="Recommencer au dernier palier"></center>
+			</form>
+		</div>
+
+	</body>
+
+</html>
+
+

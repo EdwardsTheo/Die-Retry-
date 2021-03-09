@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tour des niveaux</title>
+		<link rel="stylesheet" href="styles_affichage_tour.css">
+	</head>
+	<body>
+		<form action="/req_Niveau" method="GET">
+			<center>
+			<input type="submit" name="action" value="Niveau 6" disabled="disabled">
+			<br/>
+			<br/>
+			<input type="submit" name="action" value="Niveau 5" disabled="disabled">
+			<br/>
+			<br/>
+			<input type="submit" name="action" value="Niveau 4" {niveau} />
+			<br/>
+			<br/>
+			<input type="submit" name="action" value="Niveau 3" disabled="disabled">
+			<br/>
+			<br/>
+			<input type="submit" name="action" value="Niveau 2" disabled="disabled">
+			<br/>
+			<br/>
+			<input type="submit" name="action" value="Niveau 1" {niveau2} />
+			</center>
+			<input type="hidden" name="pseudo" value="{pseudo}">
+		</form>
+	</body>
+</html>

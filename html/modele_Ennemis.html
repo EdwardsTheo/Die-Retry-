@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+	<head>	
+		<meta charset="utf-8" http-equiv="refresh" content="3; url=http://localhost:5000/req_Niveau?action=Niveau+1&pseudo={pseudo}">
+		<title>Tour des Ennemis</title>
+		<link rel="stylesheet" type="text/css" href="styles_Ennemis.css">
+	</head>
+	<body>
+		<div class="all">
+			<div class="up">
+				<div class="Joueur">
+					<center>
+						Equipe du joueur
+						<br/>
+						<br/>
+						{Hero0_Nom} {Hero0_PV}
+						<br/>
+						{Hero1_Nom} {Hero1_PV}
+						<br/>
+						{Hero2_Nom} {Hero2_PV}
+					</center>
+				</div>
+				<div class="middle">
+					<div class="Column">
+						{map}
+						<div class="Map">
+							<center><h1> Niveau en cours <h1></center>
+							<center>
+							<br/>
+							<br/>			
+							</center>				
+						</div>
+						<div class="plateau">
+							<div class="RealPlateau">
+								<div class="grpHeros">
+									<div class="Heros_0">
+										{perso_1}
+										{fin_div}
+									</div>
+									<div class="Heros_1">
+										{perso_2}
+										{fin_div2}
+									</div>
+									<div class="Heros_2">
+										{perso_3}
+										{fin_div3}
+									</div>
+								</div>
+								<div class="grpEnnemis">
+									<div class="Monstre_0">
+										{monstres_1}
+										{fin_div_m}
+									</div>
+									<div class="Monstre_1">
+										{monstres_2}
+										{fin_div_m2}
+									</div>
+									<div class="Monstre_2">
+										{monstres_3}
+										{fin_div_m3}
+									</div>
+								</div>
+							</div>
+						</div>
+					{fin_map}
+				</div>
+				<div class="Competences">
+					<div class="RealCompetences">
+						Compétences
+						<br/>
+						<br/>
+						<div class ="Basic">
+							{Basic}
+							<div class = "carre0">
+							</div>
+						</div>
+						<div class="Special_0">
+							{Special0}
+							<div class="carre1">
+							</div>
+						</div>
+						<div class="Special_1">
+							{Special1}
+							<div class="carre2">
+							</div>
+						</div>
+						<div class="Ultime">
+							{Ultim}
+							<div class="carre3">
+							</div>
+						</div>
+					</div>
+					<div class="Objets">
+						Objets :
+					</div>
+				</div>
+			</div>		
+				<div class="Ennemis">
+					<center>
+						PV des Ennemis
+						<br/>
+						<br/>
+						{Monstre0_Nom} {Monstre0_PV}
+						<br/>
+						{Monstre1_Nom} {Monstre1_PV}
+						<br/>
+						{Monstre2_Nom} {Monstre2_PV}
+					</center>	
+				</div>
+			</div>
+			<div class="Down">
+				<div class="Historique">
+					<center>	
+						Actions réalisées
+					</center>
+				</div>
+			</div>
+			<input type="hidden" name="pseudo" value="{pseudo}">
+		</div>
+	</body>
+</html>

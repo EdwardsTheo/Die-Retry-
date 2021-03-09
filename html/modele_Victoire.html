@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Victoire</title>
+		<link rel="stylesheet" href="styles_Victoire.css">
+	</head>
+	<body style="background-image : url(victory.jpg)">
+		<header>
+			<h1>Félicitation vous avez vaincu Dextropropoxyphène</h1>
+		</header>
+
+		<div class="quitter">
+			<form action="/req_MenuAdieu" method="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+				<center><input type="submit" name="bouton" value="Quitter le jeu"></center>
+			</form>
+		</div>
+
+		<div class="rejouer">
+			<form action="/req_afficher_choixEquipe" method="GET">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+				<center><input type="submit" name="bouton" value="Rejouer"></center>
+			</form>
+		</div>
+	<body>
+</html>

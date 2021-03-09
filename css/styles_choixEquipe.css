@@ -1,0 +1,140 @@
+@font-face {
+	font-family: 'Luminari-Regular';
+	src: url('font/Luminari-Regular.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 20px;
+}
+
+header > h1 {
+	text-align: center;
+	font-family: 'Luminari-Regular';
+    src: url('font/Luminari-Regular.ttf');
+	color: red;
+}
+
+.personnage {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.choice-1 {
+	border: 4px solid white;
+	margin: 0 50px;
+	padding: 80px;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	font-family: 'Luminari-Regular';
+	color: red;
+	background-image: url('healer.png');
+	background-repeat: no-repeat;
+	background-position: 50%;
+	text-align: top;
+}
+.choice-2 {
+    border: 4px solid white;
+    margin: 0 50px;
+    padding: 80px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    font-family: 'Luminari-Regular';
+    color: red;
+	background-image: url('paladin.png');
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+}
+.choice-3 {
+    border: 4px solid white;
+    margin: 0 50px;
+    padding: 80px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    font-family: 'Luminari-Regular';
+    color: red;
+	background-image: url("Balanite.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+
+}
+.choice-4 {
+    border: 4px solid white;
+    margin: 0 50px;
+    padding: 80px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    font-family: 'Luminari-Regular';
+    color: red;
+	background-image: url("witch.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
+
+}
+.choice-5 {
+    border: 4px solid white;
+    margin: 0 50px;
+    padding: 80px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    font-family: 'Luminari-Regular';
+    color: red;
+	background-image: url("viking.png");
+	background-repeat: no-repeat;
+	background-position:50%;
+
+}
+
+
+
+.choice:hover {
+	cursor: pointer;
+	background-image: url("");
+}
+
+input[type=checkbox] {
+	margin: auto 157px;
+	width: 50px;
+	transform: scale(2);
+	display: inline-none;
+	background-color: blue;
+}
+
+input[type=submit] {
+	border: 1px solid black;
+	font-family: 'Luminari-Regular';
+    font-size: 200%;
+	src: url('font/Luminari-Regular.ttf');
+	color: red;
+	margin: 0 10px;
+}
+
+span{
+	color: red;
+	font-family: 'Luminari-Regular';
+	text: center;
+	font-size: 140%;
+	text-shadow:	0 0 2px #d60, 	0 0 2px #d60, 	0 0 2px #d60, 	0 0 2px #d60; 
+}
+
+.text{
+	color:#ff0000;
+	text-align:center;
+	word-spacing: 225px;
+	vertical-align: text-top;
+	font-size: 30px;
+	font-family: 'Luminari-Regular';
+    src: url('font/Luminari-Regular.ttf');
+
+}

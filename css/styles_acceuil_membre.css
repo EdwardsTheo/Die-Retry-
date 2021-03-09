@@ -1,0 +1,86 @@
+@font-face{
+	font-family: 'Luminari-Regular';
+	src: url('font/Luminari-Regular.ttf');
+}
+
+body{
+    background-image: url("tour.jpg");
+    background-position: 200% 0%;
+	background-size: cover;
+}
+
+h2{
+	font-family: 'Luminari-Regular';
+	font-size: 320%;
+}
+
+p{
+	font-family: 'Luminari-Regular';
+	font-size: 250%;
+}
+
+label{
+	font-size: 250%;
+	color: #6D071A;
+	text-decoration: underline;
+}
+
+input{
+	margin-top: 20px;
+	font-size: 130%;
+	border-radius: 20px;
+	background-color: #c0c0c0;
+	color:#6D071A;
+	display:flex;
+	align-items:left;
+	margin-left:6%;
+}
+
+select{
+	font-size: 23px;
+	color:#6D071A;
+	background-color:#c0c0c0;
+	width: 100%;
+	margin-left:3%;
+}
+
+table{
+	width:400px;
+	border-radius; 14px;
+	border-collapse: collapse;
+	font-size: 150%;
+	margin-right:10%;
+}
+
+.parent{
+	display:flex;
+	flex-direction: row;
+	align-items: right;
+	margin-left: 15%;
+}
+
+.parent2{
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	width: 100%;
+}
+.parent3{
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+}
+.bouton{
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+}
+span{
+	display:flex;
+	flex-direction: column;
+	width: 200%;
+	height: auto;
+}
+td{
+	color: #6d071a;
+}

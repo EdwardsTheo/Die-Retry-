@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sélection Personnages - Die&Retry</title>
+		<link rel="stylesheet" href="styles	_afficher_choixEquipe.css">
+	</head>
+	<body background="inn.png">
+		<form action="/req_afficher_Tour" method="get">
+			<h1>Choisis ton équipe !</h1>
+			<span class="marqueurs">
+				<center>{erreur}</center>
+			</span>
+			<br/>		
+			<div class="flex row ligne-persos">
+				<label class="flex col select-perso">
+					<span class="nom-perso">Clerc</span>
+					<div class="perso-description">
+						<img src="healer.png" />
+						<p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Compétences :<br/><br/>-Heal : soigne un seul allié<br/><br/>-Buff : donne un bonus de dégâts à un allié<br/><br/>-Shield : donne un bouclier à un allié<br/><br/>-Ultime : heal qui soigne tous les alliés</p>
+						
+					</div>
+					<input type="checkbox" name="character" value="Clerc" />
+				</label>
+				<label class="flex col select-perso">
+					<span class="nom-perso">Impetigo</span>
+					<div class="perso-description">
+					<img src="paladin.png" />
+						<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspCompétences :<br/><br/>-Dps : attaque un seul ennemi <br/><br/>-Attaque spéciale : attaque un seul ennemi avec plus de dégâts<br/><br/>-Shield : donne un bouclier à un allié <br/><br/>-Ultime : Attaque tous les ennemis </p>
+					</div>
+					<input type="checkbox" name="character" value="Impetigo" />
+				</label>
+					<label class="flex col select-perso">
+					<span class="nom-perso">Balanite</span>
+					<div class="perso-description">
+					<img src="Balanite.png" />
+						<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspCompétences:<br/><br/>-Dps : attaque un seul ennemi <br/><br/>-Shield : se donne un bouclier<br/><br/>-Provocation : prend les dégâts d'un ennemi choisi<br/><br/>-Ultime : prend tous les dégâts pendant un tour</p>
+					</div>
+					<input type="checkbox" name="character" value="Balanite" />
+				</label>
+					<label class="flex col select-perso">
+					<span class="nom-perso">Escarre</span>
+					<div class="perso-description">
+					<img src="witch.png" />
+						<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspCompétences:<br/><br/>-Dps : attaque un seul ennemi<br/><br/>-Attaque spéciale : attaque un seul ennemi avec plus de dégâts <br/><br/>-Heal : soigne un allié<br/><br/>-Ultime : Attaque tous les ennemis et soigne un allié au hasard</p>
+					</div>
+					<input type="checkbox" name="character" value="Escarre" />
+				</label>
+					<label class="flex col select-perso">
+					<span class="nom-perso">Versiniose</span>
+					<div class="perso-description">
+					<img src="viking.png" />
+						<p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspCompétences:<br/><br/>-Dps : attaque un seul ennemi <br/><br/>-Hush : rend inactif un ennemi pendant un tour<br/><br/>-Buff : donne un bonus de dégâts à un allié<br/><br/>-Ultime : rend inactif tous les ennemis pendant un tour </p>
+					</div>
+					<input type="checkbox" name="character" value="Versiniose" />
+				</label>
+			</div>
+
+			<br/>	
+			<br/>	
+			<br/>	
+			<br/>	
+			 <input type="hidden" name="pseudo" value="{pseudo}">
+			 <a href="modele_affichage_tour.html">
+            <center><input type="submit" name="bouton" value="validation" style="height:100px;width:200px"></center>
+			</a>
+		</form>
+	</body>
+</html>
+

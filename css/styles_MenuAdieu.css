@@ -1,0 +1,31 @@
+@font-face{
+	font-family: 'Luminari-Regular';
+	src: url('font/Luminari-Regular.ttf');
+}
+body{
+	background-image: url("image_fond_menuAdieu.jpg");
+	background-size: cover;
+	font-family: Luminari-Regular;
+	height: 100%;
+}
+
+.tableau1{
+	margin: 190px;
+	width: 450px;
+	border-color: black;
+	border: solid;	
+	font-size: 17px;
+}
+
+.tableau2{
+	margin: 190px;
+	border-color: black;
+	border: solid;
+}
+span{
+ color: #FFFFFF;
+ font-size: 20px;
+}
+h1{
+	color: #6D071A;
+}

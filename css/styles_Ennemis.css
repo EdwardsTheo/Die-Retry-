@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Luminari-Regular';
+    src: url('font/Luminari-Regular.ttf');
+}
+
+
+.all{
+	border-style: solid;
+	border-width: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	height:100%;
+}
+.up{
+	border-style: solid;
+	border-width: 1px;
+	display: flex;
+	flex-direction: row;
+	height: 75%;
+}
+.Down{
+	border-style: solid;
+	border-width: 1px;
+	background-image : url("parchemin.png");
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position : center;
+
+}
+.Joueur{
+	border-style:solid;
+	border-width:1px;
+	flex-grow:1;
+	background-image : url("parchemin.png");
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position : center;
+
+}
+.middle{
+	border-style:solid;
+	border-width:1px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+	background-image : url("parchemin.png");
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position : center;
+
+}
+.Ennemis{
+	border-style:solid;
+	border-width:1px;
+	flex-grow: 1;
+	background-image : url("parchemin.png");
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position : center;
+}
+.Historique{
+	border-style:solid;
+	border-width:1px;
+	flex-grow: 1;
+}
+.Objets{
+	display : flex;
+	flex-direction : row;
+}
+.plateau{
+	display: flex;
+	flex-direction : column;
+	justify-content : space-between;
+	border-top-style :none;
+	border-width:1px;
+	height: 100%;
+}
+
+.RealPlateau{
+	display: flex;
+	flex-direction : row;
+	justify-content : space-between;
+	border-top-style:none;
+	border-width:1px;
+	height: 100%;
+}
+.grpHeros{
+	display: flex;
+	flex-direction: column;
+}
+.grpEnnemis{
+	display: flex;
+	flex-direction: column;
+}
+.Competences{
+	border-style:solid;
+	border-width:1px;
+	border-bottom: none;
+	display: flex;
+	flex-direction: row;
+	justify-content : space-between;
+}
+.RealCompetences{
+	display: flex;
+	flex-direction : row;
+}
+.carre{
+	width:75px;
+	height: 75px;
+
+}
+.carre2{
+    width:75px;
+    height: 75px;
+
+}
+.ligne{
+	display: flex;
+	flex-direction: row;
+}
+.Heros_0{
+	width: 120px;
+	height : 120px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin : 10px;
+}
+.Heros_1{
+	width: 120px;
+	height : 120px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin : 10px;
+}
+.Heros_2{
+	width: 120px;
+	height : 120px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin : 10px;
+}
+.Monstre_0{
+	width: 100px;
+	height : 100px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin : 10px;
+}
+.Monstre_1{
+	width: 100px;
+	height : 100px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin : 10px;
+}
+.Monstre_2{
+	width: 100px;
+	height : 100px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin : 10px;
+}
+
+.Column{
+	display: flex;
+	flex-direction: column;
+}
+
+input{
+	text-align: center;
+	font-family:'Luminari-Regular';
+	src: url("font/Luminari-Regular.ttf");
+	border-radius: 10px;
+	border: none;
+	width: 200px;
+	height: 150px;
+	font-size: 30px;
+    background-color:  #6d6565;
+	color: red;
+}
+body{
+	background-image: url("gris.png");
+	
+}
+.Map{
+	color : red;
+}

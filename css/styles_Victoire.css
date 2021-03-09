@@ -1,0 +1,49 @@
+@font-face { 
+	font-family: 'Luminari-Regular';
+	src: url('font/Luminari-Regular.ttf');
+}
+body{
+background-image: url("victory.jpg");
+background-size: cover;
+}
+
+header > h1 {
+	text-align: center;
+	font-family: 'Luminari-Regular';
+	font-size: 400%;
+	src: url('font/Luminari-Regular.ttf');
+	color: #FAFE3C;
+}
+
+input[type=submit] {
+	border-radius: 2%;
+	padding: 50px;
+    margin: 0 20px;
+    background-color: #EBC021;
+    font-family: 'Luminari-Regular';
+    src: url('font/Luminari-Regular.ttf');
+    font-size: 250%;
+    color: #FAFE3C;
+}
+
+.rejouer {
+    position: relative;
+    top: 450px;
+    left: -500px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.quitter {
+    position: relative;
+    top: 350px;
+    left: -500px;
+    right: 0px;
+    bottom: 0px;
+}
+
+input[type=submit]:hover {
+	cursor: pointer;
+	background red;
+}
+

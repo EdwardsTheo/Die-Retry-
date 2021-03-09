@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Luminari-Regular';
+    src: url('font/Luminari-Regular.ttf');
+}
+
+body{
+	background-image: url(orig_494386.jpg);
+	background-position: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+input{
+	width: 200px;
+	height: 105px;
+	font-family:'Luminary-Regular';
+	src: url('font/Luminari-Regular.ttf');
+	color: red;
+	border-radius: 10px;
+	background-color:  #6d6565;
+	font-size: 30px;
+	border: none;
+}
+
+
+
+

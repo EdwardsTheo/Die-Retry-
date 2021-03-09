@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Luminari-Regular';
+    src: url ('font/Luminari-Regular.tff');
+}
+
+* { margin: 0px; padding: 0px; }
+.flex { display: flex; }
+.col { flex-direction: column; }
+.row { flex-direction: row; }
+
+h1{
+    color: red;
+    font-family:'Luminari-Regular';
+    src: url('font/Luminari-Regular.ttf');
+    text-align:center;
+}
+
+.ligne-persos {
+    justify-content: space-evenly;
+}
+
+.select-perso {
+    align-items: bottom;
+
+}
+.nom-perso {
+    margin: 24px;
+    font-size: 32px;
+    font-family: 'Luminari-Regular';
+    color: red;
+}
+
+.perso-description {
+    position: relative;
+    width: 250px;
+    height: 250px;
+	margin-bottom: 70px;
+}
+
+.perso-description img,
+.perso-description p {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+	border: 5px white solid;
+}
+
+.perso-description p {
+    overflow: hidden;
+    box-sizing: border-box;
+    opacity: 0;
+    transition-property: opacity, background-color;
+    transition-duration: 0.25s;
+	height: 122%;
+	width: 103%;
+	color: gold;
+}
+
+.perso-description:hover p {
+    background-color: black;
+    opacity: 1;
+	cursor:pointer;
+	height: 122%;
+	width:103%;
+}
+.marqueurs{
+    color: red;
+    font-family: 'Luminari-Regular';
+    text: center;
+    font-size: 140%;
+    text-shadow:    0 0 2px #d60,   0 0 2px #d60,   0 0 2px #d60,   0 0 2px #d60;
+}
+input[type=checkbox] {
+    width: center;
+    transform: scale(2);
+    display: inline-none;
+    background-color: blue;
+}
+
+input[type=checkbox]:hover{
+    cursor:pointer;
+}
+
+input[type=submit] {
+    border: 1px solid black;
+    font-family: 'Luminari-Regular';
+    font-size: 200%;
+    src: url('font/Luminari-Regular.ttf');
+    color: red;
+    margin: 0 10px;
+}
+input[type=submit]:hover{
+    cursor:pointer;
+}
+

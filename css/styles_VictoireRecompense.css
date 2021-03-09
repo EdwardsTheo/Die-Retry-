@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'Luminari-Regular';
+	src: url('font/Luminari-Regular.ttf');
+}
+h1 {
+	text-align: center;
+	font-family: 'Luminari-Regular';
+	font-size: 400%;
+	src: url('font/Luminari-Regular.ttf');
+	color: red;
+	margin: 0px;
+}
+
+.texte1 {
+	font-size: 140%;
+	color: white;
+	font-family: 'Luminari-Regular';
+	margin: 0px;
+}
+
+.recompense {
+	border: 2px solid white;
+	margin: 0px;
+	max-height : 225px;
+	display:flex;
+	flex-direction:row;
+}
+.recompense-desciption img,
+.recompense-description p{
+	position: absolute;
+	overflow: hidden;
+	opacity: 0;
+	box-sizing: border-box;
+	transition-property: opacity, background-color;
+	transition-duration: 0.25;
+	color: gold;
+}
+.recompense-descriptionp:hover p {
+	opacity:1;
+	cursor:pointer;
+	height: 100px;
+	width: 10%;
+	background-color: black;
+}
+img{
+	max-height : 225px;
+	max-width : 225px;
+}
+input[type=submit] {
+	border-radius: 2%;
+	padding: 20px;
+	font-family: 'Luminari-Regular';
+	font-size: 150%;
+	position: relative;
+	/*top: 75px;*/
+	color: red;
+	margin: 0px;
+}
+
+.texte {
+	font-family: 'Luminari-Regular';
+	position: relative;
+	color: white;
+	/*top: 50px;*/
+	font-size: 150%;
+	margin: 0px;
+}
+
+body{
+	background-size: cover;
+	background-image:url("campfire.jpg");
+}

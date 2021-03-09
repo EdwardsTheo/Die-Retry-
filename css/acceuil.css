@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Luminari-Regular';
+    src: url('../font/Luminari-Regular.ttf');
+}
+
+body{
+	background-image: url("https://art.ngfiles.com/images/584000/584170_artistofargoth_pixel-day-2018-tower-of-the-sword.png?f1516717670");
+
+}
+input{
+	font-size: 125%;
+	font-family:'Luminari-Regular';
+	color: #6D071A;
+}
+p{
+	font-size: 30px;
+	color: #6D071A;
+	font-family: 'Luminari-Regular';
+}
+
+h1{
+	font-family: 'Luminari-Regular';
+	font-size: 50px;
+	color: #6D071A;
+}
+button{
+	color: #6D071A;
+}
+span{
+	color: #fa1212;
+}

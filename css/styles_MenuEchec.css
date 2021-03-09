@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'Luminari-Regular';
+	src: url('font/Luminari-Regular.ttf');
+}
+
+body{
+	background-size: cover;
+
+}
+header > h1 {
+	text-align: center;
+	font-family: 'Luminari-Regular';
+	font-size: 400%;
+	src: url('font/Luminari-Regular.ttf');
+	color: red;
+}
+
+input[type=submit] {
+	border-radius: 2%;
+	padding: 50px;
+	margin: 0 20px;
+	background-color: #827B79;
+	font-family: 'Luminari-Regular';
+	src: url('font/Luminari-Regular.ttf');
+	font-size: 150%;
+	color: #873E3E;
+}
+
+.rejouer {
+	position: relative;
+	top: -150px;
+    left: 500px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.ragequit {
+	position: relative;
+	top: 125px;
+    left: -500px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.changer_equipe {
+	position: relative;
+	top: 80px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+
+}
+
+input[type=submit]:hover {
+	cursor: pointer;
+	background: #D3D3D3;
+}
+#equipe{
+	padding : 50px 1px 50px 1px;
+	margin-right : 100px;
+}

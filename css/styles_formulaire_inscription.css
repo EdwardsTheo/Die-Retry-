@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Luminari-Regular';
+    src: url('font/Luminari-Regular.ttf');
+}
+body{
+    background-image: url("tour.jpg");
+    background-position: 200% 0%;
+	font-family: 'Luminari-Regular';
+	background-size: cover;
+}
+input{
+    font-size: 125%;
+    font-family:'Luminari-Regular';
+    color: #6D071A;
+}
+p{
+    font-size: 30px;
+    color: #6D071A;
+    font-family: 'Luminari-Regular';
+}
+
+h1{
+    font-family: 'Luminari-Regular';
+    font-size: 50px;
+    color: #6D071A;
+}
+button{
+    color: #6D071A;
+}
+span{
+    color: #fa1212;
+}
+label{
+	font-size: 30px;
+	color: #6D071A;
+	font-family: 'Luminari-Regular';
+}

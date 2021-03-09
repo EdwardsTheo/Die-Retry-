@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Menu de recompense</title>
+		<link rel="stylesheet" href="styles_VictoireRecompense.css">
+	</head>
+	<body >
+		<header>
+			<h1>Felicitation ! Vous pouvez passer au Niveau suivant</h1>
+		</header>
+
+		<div class="texte1">
+		<center><p>Voici votre récompense</p></center>
+		</div>
+
+		<div class ="recompense">
+			<div class = "recompense-description">
+				{objet_usable}<p>salut<p/>
+			</div>
+			<div class = "recompense-description">
+				{objet_usable2}<p>salut</p>
+			</div>
+			<div class="recompense-description">
+				{objet_usable3}<p>salut</p>
+			</div>
+			<div class = "recompense-description">
+				{objet_static}<p>salut</p>
+			</div>
+			<div class = "recompense-description">
+				{objet_static2}<p>salut</p>
+			</div>
+		</div>
+		
+		<div class ="texte">
+		<center><p>Un plus grand danger vous attends, êtes-vous prêt ?</p></center>
+		</div>
+		
+		<div class="continuer">
+			<form action="/req_Niveau" method="GET">
+				<center><input type="submit" name="bouton" value="Continuer au niveau superieur..."></center>
+				<input type="hidden" name="pseudo" value="{pseudo}">
+			</form>
+		</div>
+	
+	
+		<div class="quitter">
+			<form action="/req_MenuAdieu" method="GET">
+				<input type="submit" name="bouton" value="Rage Quit">
+				<input type="hidden" name="pseudo" value="{pseudo}">
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles_acceuil.css">
+	</head>
+	<body>
+
+		<center>
+		<h1>Die & Retry</h1>
+		
+		<span>
+		{erreur}
+		</span>	
+
+		<p/>
+
+		<form action="/req_identifier" method="GET">
+			<br/><p>Nom d'utilisateur</p>
+			<input type="text" name="pseudo" value="{pseudo}">
+			<br/>
+			<p>Mot de passe</p> 
+			<input type="password" name="password" value="">
+			<br/><br/>
+			<input type="submit" name="action" value="Se connecter">
+			
+		</form>
+
+		<p/>
+
+		<form action="/req_afficher_formulaire_inscription" method="GET">
+			<button name="action" value="creer">Créer compte</button>
+		</form>
+		</center>
+	</body>
+</html>

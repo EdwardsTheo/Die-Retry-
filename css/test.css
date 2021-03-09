@@ -1,0 +1,38 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.grille {
+	display: flex;
+	flex-direction: column;
+}
+
+.grille-ligne {
+	display: flex;
+	flex-direction: row;
+}
+.case{
+	width: 22.1px;
+	height: 22.1px;
+}
+img {
+	position: absolute;
+	width: 13px;
+	display: flex;
+}
+
+body{
+	background-image: url("Map_1.png");
+	background-repeat: no-repeat;
+}
+span{
+	width: 22.1px;
+	height: 22.1px;
+}
+a{
+	width: 22.1px;
+	height: 22.1px;
+	display: flex;
+}
+

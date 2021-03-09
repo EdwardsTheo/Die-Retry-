@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Choix de l'equipe</title>
+		<link rel="stylesheet" href="styles_choixEquipe.css">
+	</head>
+	<body background="inn.png">
+		<header>
+			<h1>Choisis ton equipe !</h1> 
+		</header>
+	<span>
+		<center>{erreur}</center>
+	</span>
+	<br/>
+	<br/>
+	
+		<div class="text">	
+			Clerc Impetigo Balanite Escarre Versinios
+		</div>
+	<div class="personnage">
+		
+		<div class="choice-1">
+		</div>				
+		
+		<div class="choice-2">
+		</div>
+		
+		<div class="choice-3">
+		</div>
+		
+		<div class="choice-4">
+		</div>
+		
+		<div class="choice-5">
+		</div>
+	</div>
+	
+	<div class="choix">
+	</div>
+		<form action="/req_afficher_Tour" method="GET">
+			<input type="checkbox" name="character" value="Clerc">
+			<input type="checkbox" name="character" value="Impetigo">
+			<input type="checkbox" name="character" value="Balanite">
+			<input type="checkbox" name="character" value="Escarre">
+			<input type="checkbox" name="character" value="Versiniose">
+		
+			<input type="hidden" name="pseudo" value="{pseudo}">
+			<center><input type="submit" name="bouton" value="validation" style="height:100px;width:200px"></center>
+		</form>
+			
+	</body>
+
+</html>

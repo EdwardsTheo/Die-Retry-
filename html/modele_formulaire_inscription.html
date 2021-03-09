@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles_formulaire_inscription.css">
+
+	</head>
+	<body>
+		<center>
+		<h1>Formulaire de création de compte</h1>
+
+		<span>
+		{erreur}
+		</span>
+
+
+		<p/>
+		<form action="/req_inscrire" method="GET">
+			<br/><label>Pseudo :</label><br/>
+			<input type="text" name="pseudo" value="{pseudo}">
+			<br/><br/>
+			<label>Mot de passe :</label><br/>
+			<input type="password" name="password" value="">
+			<br/><br/>
+			<button name="action" value="creer">Créer compte</button>
+		</form>
+
+		<p/>
+		</center>
+	</body>
+</html>
